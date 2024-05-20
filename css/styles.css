@@ -1213,6 +1213,8 @@ input {
   }
 
   .container-content {
+    justify-content: center;
+    max-width: unset;
     align-items: center;
     gap: unset;
   }
