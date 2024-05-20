@@ -638,7 +638,6 @@ input {
 /* ====== HERO STYLES ====== */
 
 .page-hero {
-  max-width: 320px;
   min-height: 432px;
   margin-right: auto;
   margin-left: auto;
@@ -704,7 +703,6 @@ input {
 
 @media screen and (min-width: 768px) {
   .page-hero {
-    max-width: 768px;
     min-height: 436px;
     padding-top: 112px;
     padding-bottom: 112px;
@@ -882,6 +880,7 @@ input {
 }
 
 .team-item {
+  width: 264px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -1182,13 +1181,15 @@ input {
 
 @media screen and (min-width: 768px) {
   .page-footer {
-    padding: 96px 108px;
+    padding: 96px 0;
   }
   .container-content {
+    max-width: 584px;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+    text-align: start;
   }
 
   .subscribe-description {
